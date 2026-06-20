@@ -1,5 +1,4 @@
 # CalcConvert
-
 CalcConvert is an all-in-one Android app that combines a calculator with multiple conversion tools in a simple and user-friendly interface.
 
 ## Features
