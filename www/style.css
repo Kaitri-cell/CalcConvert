@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+.container{
+    width:100%;
+    min-height:100vh;
+    background:#2c2c2c;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.calculator{
+    width:320px;
+    background:#3a3a3a;
+    padding:18px;
+    border-radius:16px;
+    box-shadow:
+        0 0 15px #7ffcff,
+        0 0 30px rgba(127,252,255,.3);
+}
+
+/* Display boxes */
+#display,
+#amount,
+#length,
+#weight,
+#temp,
+#result{
+    width:100%;
+    height:55px;
+    margin:10px 0;
+    padding:10px;
+    border:none;
+    outline:none;
+    border-radius:15px;
+    background:#aefcff;
+    color:#222;
+    font-size:22px;
+    text-align:right;
+    box-shadow:0 0 15px #7ffcff;
+}
+
+/* Dropdowns */
+select{
+    width:100%;
+    height:45px;
+    margin:10px 0;
+    padding:10px;
+    border:none;
+    border-radius:12px;
+    background:#111;
+    color:#7ffcff;
+    font-size:14px;
+    box-shadow:0 0 10px #7ffcff;
+}
+
+/* All buttons */
+.calculator input[type="button"]{
+    width:55px;
+    height:50px;
+    margin:5px;
+    border:none;
+    border-radius:12px;
+    background:#111;
+    color:#7ffcff;
+    font-size:18px;
+    cursor:pointer;
+    box-shadow:0 0 10px rgba(127,252,255,.7);
+    transition:.2s;
+}
+
+.calculator input[type="button"]:hover{
+    transform:scale(1.05);
+    box-shadow:
+        0 0 15px #7ffcff,
+        0 0 25px #7ffcff;
+}
+
+/* Convert button */
+.convert-btn{
+    width:100% !important;
+    height:50px !important;
+    margin:15px 0 !important;
+    font-size:18px !important;
+}
+
+/* Calculator rows */
+.row{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.row div{
+    display:flex;
+    justify-content:center;
+    width:100%;
+}
+
+.calculator{
+    gap:6px;
+}
+
+#amount,
+#result,
+select{
+    margin:6px 0;
+}
+
+.row{
+    margin-top:5px;
+}
+

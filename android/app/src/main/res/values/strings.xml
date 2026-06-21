@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CalcConvert</string>
+    <string name="title_activity_main">CalcConvert</string>
+    <string name="package_name">com.kaitri.calcconverter</string>
+    <string name="custom_url_scheme">com.kaitri.calcconverter</string>
+</resources>
